@@ -14,7 +14,9 @@
         "phpunit/phpunit":              "~3.7",
         "symfony/dependency-injection": "~2.2",
         "symfony/http-kernel":          "~2.3",
-        "symfony/routing":              "~2.2"
+        "symfony/routing":              "~2.2",
+        "doctrine/orm":                 ">=2.2.3,<2.4-dev",
+        "doctrine/mongodb-odm":         "1.0.*@dev"
     },
     "license":     "MIT",
     "authors":     [
@@ -27,5 +29,6 @@
         "psr-0": {
             "dVAffection\\SymfonyConfirmationBundle\\": ""
         }
-    }
+    },
+    "target-dir":  "dVAffection/SymfonyConfirmationBundle"
 }
